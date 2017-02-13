@@ -25,6 +25,10 @@ header {
   background-color: #e2e2e2;
 }
 
+h1 {
+  text-align: center;
+}
+
 li a {
   color: #0074d9;
   text-decoration: none;
@@ -33,4 +37,26 @@ li a {
 li a:hover {
   color: #fff;
   background-color: #0074d9;
+  padding: .25em;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+
+}
+@media only screen and (min-width: 60em) {
+
+
+
 }
