@@ -23,42 +23,50 @@ body {
 
 header {
   background-color: #e2e2e2;
-}
-
-h1 {
   text-align: center;
 }
 
-li a {
-  color: #0074d9;
-  text-decoration: none;
-  text-align: center;
-}
-
-li a:hover {
-  color: #fff;
-  background-color: #0074d9;
-  padding: .5em;
-}
-
-nav ul li {
+ul {
+  padding: 0;
   list-style-type: none;
+}
+
+li {
   display: inline-block;
 }
 
-@media only screen and (min-width: 25em) {
+ li:first-child a {
+  background-color: #0074d9;
+  color: #fff;
+  text-decoration: none;
+  padding: .65rem;
+
+ }
+
+ li:nth-child(2) a {
+  color: #0074d9;
+  text-decoration: none;
+  padding: .65rem;
+ }
+
+ li:last-child a {
+   color: #0074d9;
+   text-decoration: none;
+   padding: .65rem;
+ }
+
+ li a:hover {
+   background-color: #0074d9;
+   color: #fff;
+ }
 
 
-
-}
 
 @media only screen and (min-width: 38em) {
-  text-align: left;
-
-}
-
-@media only screen and (min-width: 60em) {
-
-
-
+  h1 {
+    text-align: left;
+  }
+  ul {
+    text-align: right;
+  }
 }
